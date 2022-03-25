@@ -37,6 +37,9 @@ module.exports = {
 
     // next
     '@next/next/no-html-link-for-pages': 'off',
+
+    //import
+    'import/no-extraneous-dependencies': ['error', { devDependencies: true }],
   },
   overrides: [
     {
