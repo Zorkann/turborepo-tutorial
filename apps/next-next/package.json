@@ -6,7 +6,7 @@
     "dev": "next dev --port 3000",
     "build": "next build",
     "start": "next start",
-    "test": "echo 'next-next tests' ",
+    "test": "jest --coverage",
     "lint": "eslint src --fix"
   },
   "dependencies": {
