@@ -16,7 +16,7 @@ This turborepo uses [NPM](https://www.npmjs.com/) as a package manager. It inclu
 
 Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
 
-### Utilities
+### Utilitiess
 
 This turborepo has some additional tools already setup for you:
 
