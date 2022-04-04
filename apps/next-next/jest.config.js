@@ -1,6 +1,6 @@
 module.exports = {
   ...require('config/jest-next'),
-  rootDir: '.',
+  rootDir: 'src',
   moduleNameMapper: {
     '\\.module\\.css$': 'identity-obj-proxy',
   },
