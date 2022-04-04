@@ -7,7 +7,7 @@ on:
     paths:
       - "apps/next-app/**"
       - "packages/ui/**"
-      - ".github/workflow/next-app.yaml"
+      - ".github/workflows/next-app.yaml"
   pull_request:
     branches: [main]
 
