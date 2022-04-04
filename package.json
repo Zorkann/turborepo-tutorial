@@ -29,10 +29,6 @@
     "prettier": "^2.5.1",
     "turbo": "latest"
   },
-  "engines": {
-    "npm": ">=7.0.0",
-    "node": ">=14.0.0"
-  },
   "lint-staged": {
     "apps/**/*.{js,ts,jsx,tsx}": [
       "eslint --fix"
@@ -43,6 +39,5 @@
     "*.json": [
       "prettier --write"
     ]
-  },
-  "packageManager": "npm@8.5.0"
+  }
 }
