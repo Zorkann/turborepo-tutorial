@@ -32,8 +32,6 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Build
-        working-directory: ./apps/next-app
         run: yarn build
       - name: Test
-        working-directory: ./apps/next-app
         run: yarn test:ci

@@ -5,7 +5,7 @@ on:
     branches:
       - "*"
     paths:
-      - "apps/next-app/**"
+      - "apps/next-next/**"
       - "packages/ui/**"
       - ".github/workflows/next-next.yaml"
   pull_request:
@@ -32,8 +32,6 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
       - name: Build
-        working-directory: ./apps/next-next
         run: yarn build
       - name: Test
-        working-directory: ./apps/next-next
         run: yarn test:ci
